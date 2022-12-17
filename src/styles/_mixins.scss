@@ -1,0 +1,5 @@
+@mixin media($width, $columns) {
+  @media(max-width: $width) {
+    grid-template: $card-height / repeat($columns, $card-width)
+  }
+}
